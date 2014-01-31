@@ -5,3 +5,7 @@ body
 	padding: 0;
 	margin: 0;
 }
+
+#home, #services, #work, #about, #clients, #connect, #contact {
+	height: 935px
+}

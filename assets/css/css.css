@@ -2,7 +2,49 @@ html {
 	overflow-y: scroll;
 }
 
+body, button, input, select, textarea
+{
+	letter-spacing: 2px;
+}
+
 header#exploreheader {
 	height: 30px;
 	border-bottom: 1px solid #FFFFDC;
 }
+
+header#exploreheader .exploremore {
+	background: url(../../images/vertical-nav/explore.png);
+	width: 100px;
+	height: 66px;
+	position: relative;
+	margin: 0 auto;
+	border-spacing: 0
+}
+
+header#exploreheader .upArrow {
+	background: url(../../images/vertical-nav/uparrow.png);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 28px;
+}
+
+header#exploreheader .downArrow {
+	background: url(../../images/vertical-nav/downarrow.png);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 28px;
+}
+
+header#exploreheader .upArrow:hover,header#exploreheader .downArrow:hover{
+	background-position: 0 -20px
+}
+
+

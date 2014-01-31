@@ -1,3 +1,8 @@
 html {
 	overflow-y: scroll;
 }
+
+header#exploreheader {
+	height: 30px;
+	border-bottom: 1px solid #FFFFDC;
+}

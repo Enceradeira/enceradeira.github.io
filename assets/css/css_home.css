@@ -1,3 +1,7 @@
-body {
-	background: url(../../images/homepage/bg-main.jpg)
-} 
+body
+{
+	background: url(../../images/homepage/bg-main.jpg) no-repeat center top 31px #5e2111;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}

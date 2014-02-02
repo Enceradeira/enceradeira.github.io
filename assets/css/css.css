@@ -89,8 +89,13 @@ border-top: 3px solid #bb4421;
 	color: #ffffdc;
 	font-size: 10px;
 	text-align: center;
+	text-decoration: none;
 	display: block;
 	padding: 8px 0;
+}
+
+#vertical-links a:hover {
+	color:#5e2011;
 }
 
 /* classes */

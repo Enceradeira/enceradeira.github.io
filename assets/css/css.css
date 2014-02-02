@@ -7,9 +7,19 @@ body, button, input, select, textarea
 	letter-spacing: 2px;
 }
 
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
 header#exploreheader {
 	height: 30px;
 	border-bottom: 1px solid #FFFFDC;
+	position: fixed;
+	width: 100%;
+	z-index: 101;
+	background: #5e2111;
 }
 
 header#exploreheader .exploremore {
@@ -45,6 +55,36 @@ header#exploreheader .downArrow {
 
 header#exploreheader .upArrow:hover,header#exploreheader .downArrow:hover{
 	background-position: 0 -20px
+}
+
+header#navHeader {
+	top: 30px;
+	left: 69px;
+	position:fixed;
+	z-index: 101;
+}
+
+#main-nav {
+	background-color: #F95A2C;
+	width: 100px;
+	padding:  15px 0 8px 0
+}
+
+.m-logo {
+	background: url('../../images/moose-logo.png') no-repeat #f95a2c;
+	height: 76px;
+	display: block;
+	width: 75px;
+	margin: 0 auto 15px;
+	
+}
+
+.m-logo:hover {
+	background-position: 0 -76px
+}
+
+#vertical-links li {
+border-top: 3px solid #bb4421;
 }
 
 

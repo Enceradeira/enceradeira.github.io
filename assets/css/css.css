@@ -98,6 +98,65 @@ border-top: 3px solid #bb4421;
 	color:#5e2011;
 }
 
+#nav-bottom {
+	background: url('../../images/vertical-nav/bg-nav-bottom.png') no-repeat;
+	background-position: 0 -20px;
+	width: 100px;
+	height: 94px;
+}
+
+#horizontal-social {
+	width: 80px;
+	margin: 0 auto;
+	padding: 3px 0 0 1px;
+}
+
+
+#horizontal-social .Twitter, #horizontal-social .Facebook, #horizontal-social .LinkedIn,
+#horizontal-social .vimeo, #horizontal-social .Pinterest, #horizontal-social .googleplus
+{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+#horizontal-social .Twitter:hover, #horizontal-social .Facebook:hover, #horizontal-social .LinkedIn:hover,
+#horizontal-social .vimeo:hover, #horizontal-social .Pinterest:hover, #horizontal-social .googleplus:hover
+{
+	background-position: 0 -20px;
+}
+
+#horizontal-social a {
+	float: left;
+	margin: 5px 0 0 4px
+}
+
+#horizontal-social .Twitter {
+	background: url('../../images/vertical-nav/gfx-twitter.png') no-repeat;
+}
+
+#horizontal-social .Facebook {
+	background: url('../../images/vertical-nav/gfx-facebook.png') no-repeat;
+}
+
+#horizontal-social .LinkedIn {
+	background: url('../../images/vertical-nav/gfx-linkedin.png') no-repeat;
+}
+
+#horizontal-social .vimeo {
+	background: url('../../images/vertical-nav/gfx-vimeo.png') no-repeat;
+}
+
+#horizontal-social .Pinterest {
+	background: url('../../images/vertical-nav/gfx-pinterest.png') no-repeat;
+}
+
+#horizontal-social .googleplus {
+	background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
+}
+
+
+
 /* classes */
 
 .m-logo {

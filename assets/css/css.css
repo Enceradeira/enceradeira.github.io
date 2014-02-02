@@ -1,10 +1,19 @@
+/* elements */
 html {
 	overflow-y: scroll;
 }
 
+body {
+	font-size: 13px;
+	line-height: 1.231;
+	letter-spacing: 2px;
+}
+
 body, button, input, select, textarea
 {
-	letter-spacing: 2px;
+	font-family: FuturaStdBold;
+	color: #222;
+	text-transform: uppercase;
 }
 
 nav ul {
@@ -12,6 +21,8 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
+
+/* ids */
 
 header#exploreheader {
 	height: 30px;
@@ -70,6 +81,20 @@ header#navHeader {
 	padding:  15px 0 8px 0
 }
 
+#vertical-links li {
+border-top: 3px solid #bb4421;
+}
+
+#vertical-links a {
+	color: #ffffdc;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	padding: 8px 0;
+}
+
+/* classes */
+
 .m-logo {
 	background: url('../../images/moose-logo.png') no-repeat #f95a2c;
 	height: 76px;
@@ -83,8 +108,9 @@ header#navHeader {
 	background-position: 0 -76px
 }
 
-#vertical-links li {
-border-top: 3px solid #bb4421;
+/* fonts */
+@font-face {
+	font-family: 'FuturaStdBold';
+	src: url('fonts/futurastd-bold-webfont.woff') format('woff')
 }
-
 

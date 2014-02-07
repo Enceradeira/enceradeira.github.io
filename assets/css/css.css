@@ -155,6 +155,10 @@ border-top: 3px solid #bb4421;
 	background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
 }
 
+#container {
+	width: 1100px;
+	margin: 0 auto;
+}
 
 
 /* classes */

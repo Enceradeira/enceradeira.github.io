@@ -1,9 +1,11 @@
 /* elements */
-html {
+html
+{
 	overflow-y: scroll;
 }
 
-body {
+body
+{
 	font-size: 13px;
 	line-height: 1.231;
 	letter-spacing: 2px;
@@ -16,7 +18,8 @@ body, button, input, select, textarea
 	text-transform: uppercase;
 }
 
-nav ul {
+nav ul
+{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -24,7 +27,8 @@ nav ul {
 
 /* ids */
 
-header#exploreheader {
+header#exploreheader
+{
 	height: 30px;
 	border-bottom: 1px solid #FFFFDC;
 	position: fixed;
@@ -33,77 +37,87 @@ header#exploreheader {
 	background: #5e2111;
 }
 
-header#exploreheader .exploremore {
-	background: url(../../images/vertical-nav/explore.png);
-	width: 100px;
-	height: 66px;
-	position: relative;
-	margin: 0 auto;
-	border-spacing: 0
-}
+	header#exploreheader .exploremore
+	{
+		background: url(../../images/vertical-nav/explore.png);
+		width: 100px;
+		height: 66px;
+		position: relative;
+		margin: 0 auto;
+		border-spacing: 0;
+	}
 
-header#exploreheader .upArrow {
-	background: url(../../images/vertical-nav/uparrow.png);
-	height: 20px;
-	width: 20px;
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	top: 30px;
-	left: 28px;
-}
+	header#exploreheader .upArrow
+	{
+		background: url(../../images/vertical-nav/uparrow.png);
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		top: 30px;
+		left: 28px;
+	}
 
-header#exploreheader .downArrow {
-	background: url(../../images/vertical-nav/downarrow.png);
-	height: 20px;
-	width: 20px;
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	top: 30px;
-	left: 28px;
-}
+	header#exploreheader .downArrow
+	{
+		background: url(../../images/vertical-nav/downarrow.png);
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		top: 30px;
+		left: 28px;
+	}
 
-header#exploreheader .upArrow:hover,header#exploreheader .downArrow:hover{
-	background-position: 0 -20px
-}
+		header#exploreheader .upArrow:hover, header#exploreheader .downArrow:hover
+		{
+			background-position: 0 -20px;
+		}
 
-header#navHeader {
+header#navHeader
+{
 	top: 30px;
 	left: 69px;
-	position:fixed;
+	position: fixed;
 	z-index: 101;
 }
 
-header#navHeader #shareThis {
-	width: 215px;
-	height: 37px;
-	background-color: #44949a;
-	margin-top: 1px;
-	
-}
+	header#navHeader #shareThis
+	{
+		width: 215px;
+		height: 29px;
+		background-color: #44949a;
+		margin-top: 1px;
+		padding: 8px 3px 0 5px;
+	}
 
-header#navHeader #shareThis span.share-banner {
-	display: block;
-	background: url(../../images/social-banner-end.png);
-	position: absolute;
-	left: -10px;
-	top: 0px;
-	width: 10px;
-	height: 37px;
-}
+		header#navHeader #shareThis span.share-banner
+		{
+			display: block;
+			background: url(../../images/social-banner-end.png);
+			position: absolute;
+			left: -10px;
+			top: 0px;
+			width: 10px;
+			height: 37px;
+		}
 
-#main-nav {
+#main-nav
+{
 	background-color: #F95A2C;
 	width: 100px;
-	padding:  15px 0 8px 0
+	padding: 15px 0 8px 0;
 }
 
-#vertical-links li {
-border-top: 3px solid #bb4421;
+#vertical-links li
+{
+	border-top: 3px solid #bb4421;
 }
 
-#vertical-links a {
+#vertical-links a
+{
 	color: #ffffdc;
 	font-size: 10px;
 	text-align: center;
@@ -112,88 +126,103 @@ border-top: 3px solid #bb4421;
 	padding: 8px 0;
 }
 
-#vertical-links a:hover {
-	color:#5e2011;
-}
+	#vertical-links a:hover
+	{
+		color: #5e2011;
+	}
 
-#vertical-links .subnav2 a:hover {
+#vertical-links .subnav2 a:hover
+{
 	color: #ffffdc;
 }
 
-#vertical-links .subnav2 {
+#vertical-links .subnav2
+{
 	background-color: #5e2111;
 	padding: 5px 0;
 }
 
-#vertical-links .subnav2 li {
-	border: none;
-	padding: 4px 0;
-}
+	#vertical-links .subnav2 li
+	{
+		border: none;
+		padding: 4px 0;
+	}
 
-#vertical-links .subnav2 li a {
-	font-size: 9px;
-	color: #cf7957;
-	padding: 0;
-}
+		#vertical-links .subnav2 li a
+		{
+			font-size: 9px;
+			color: #cf7957;
+			padding: 0;
+		}
 
-#nav-bottom {
+#nav-bottom
+{
 	background: url('../../images/vertical-nav/bg-nav-bottom.png') no-repeat;
 	background-position: 0 -20px;
 	width: 100px;
 	height: 94px;
 }
 
-#horizontal-social {
+#horizontal-social
+{
 	width: 80px;
 	margin: 0 auto;
 	padding: 3px 0 0 1px;
 }
 
 
-#horizontal-social .Twitter, #horizontal-social .Facebook, #horizontal-social .LinkedIn,
-#horizontal-social .vimeo, #horizontal-social .Pinterest, #horizontal-social .googleplus
+	#horizontal-social .Twitter, #horizontal-social .Facebook, #horizontal-social .LinkedIn,
+	#horizontal-social .vimeo, #horizontal-social .Pinterest, #horizontal-social .googleplus
+	{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+	}
+
+		#horizontal-social .Twitter:hover, #horizontal-social .Facebook:hover, #horizontal-social .LinkedIn:hover,
+		#horizontal-social .vimeo:hover, #horizontal-social .Pinterest:hover, #horizontal-social .googleplus:hover
+		{
+			background-position: 0 -20px;
+		}
+
+	#horizontal-social a
+	{
+		float: left;
+		margin: 5px 0 0 4px;
+	}
+
+	#horizontal-social .Twitter
+	{
+		background: url('../../images/vertical-nav/gfx-twitter.png') no-repeat;
+	}
+
+	#horizontal-social .Facebook
+	{
+		background: url('../../images/vertical-nav/gfx-facebook.png') no-repeat;
+	}
+
+	#horizontal-social .LinkedIn
+	{
+		background: url('../../images/vertical-nav/gfx-linkedin.png') no-repeat;
+	}
+
+	#horizontal-social .vimeo
+	{
+		background: url('../../images/vertical-nav/gfx-vimeo.png') no-repeat;
+	}
+
+	#horizontal-social .Pinterest
+	{
+		background: url('../../images/vertical-nav/gfx-pinterest.png') no-repeat;
+	}
+
+	#horizontal-social .googleplus
+	{
+		background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
+	}
+
+#container
 {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-}
-
-#horizontal-social .Twitter:hover, #horizontal-social .Facebook:hover, #horizontal-social .LinkedIn:hover,
-#horizontal-social .vimeo:hover, #horizontal-social .Pinterest:hover, #horizontal-social .googleplus:hover
-{
-	background-position: 0 -20px;
-}
-
-#horizontal-social a {
-	float: left;
-	margin: 5px 0 0 4px
-}
-
-#horizontal-social .Twitter {
-	background: url('../../images/vertical-nav/gfx-twitter.png') no-repeat;
-}
-
-#horizontal-social .Facebook {
-	background: url('../../images/vertical-nav/gfx-facebook.png') no-repeat;
-}
-
-#horizontal-social .LinkedIn {
-	background: url('../../images/vertical-nav/gfx-linkedin.png') no-repeat;
-}
-
-#horizontal-social .vimeo {
-	background: url('../../images/vertical-nav/gfx-vimeo.png') no-repeat;
-}
-
-#horizontal-social .Pinterest {
-	background: url('../../images/vertical-nav/gfx-pinterest.png') no-repeat;
-}
-
-#horizontal-social .googleplus {
-	background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
-}
-
-#container {
 	width: 1100px;
 	margin: 0 auto;
 }
@@ -201,22 +230,39 @@ border-top: 3px solid #bb4421;
 
 /* classes */
 
-.m-logo {
+.m-logo
+{
 	background: url('../../images/moose-logo.png') no-repeat #f95a2c;
 	height: 76px;
 	display: block;
 	width: 75px;
 	margin: 0 auto 15px;
-	
 }
 
-.m-logo:hover {
-	background-position: 0 -76px
+	.m-logo:hover
+	{
+		background-position: 0 -76px;
+	}
+
+.newtwittershare
+{
+	width: 85px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.fbshare
+{
+	position: relative;
+	top: -3px;
+	width: 120px;
+	overflow: hidden;
+	display: inline-block;
 }
 
 /* fonts */
-@font-face {
+@font-face
+{
 	font-family: 'FuturaStdBold';
-	src: url('fonts/futurastd-bold-webfont.woff') format('woff')
+	src: url('fonts/futurastd-bold-webfont.woff') format('woff');
 }
-

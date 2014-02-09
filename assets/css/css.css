@@ -98,6 +98,26 @@ border-top: 3px solid #bb4421;
 	color:#5e2011;
 }
 
+#vertical-links .subnav2 a:hover {
+	color: #ffffdc;
+}
+
+#vertical-links .subnav2 {
+	background-color: #5e2111;
+	padding: 5px 0;
+}
+
+#vertical-links .subnav2 li {
+	border: none;
+	padding: 4px 0;
+}
+
+#vertical-links .subnav2 li a {
+	font-size: 9px;
+	color: #cf7957;
+	padding: 0;
+}
+
 #nav-bottom {
 	background: url('../../images/vertical-nav/bg-nav-bottom.png') no-repeat;
 	background-position: 0 -20px;

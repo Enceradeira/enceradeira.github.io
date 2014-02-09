@@ -11,6 +11,8 @@
 
 var scrollToArticel = function(articelId) {
     var offset = $(articelId).offset();
+    if (offset == undefined)
+        return;
     var scrollFineAdjustment = 0;
     switch (articelId) {
         case "#home":
@@ -41,6 +43,15 @@ var scrollToArticel = function(articelId) {
         scrollTop: (offset.top + scrollFineAdjustment) + "px"
     });
     window.location.hash = articelId;
+};
+
+var hideSubnav2 = function() {
+    $("#vertical-links .subnav2").hide();
+};
+
+var openSubnav2 = function () {
+    hideSubnav2();
+    $(this).siblings(".subnav2").show();
 };
 
 $(window).resize(positionNavHeader);
@@ -74,4 +85,6 @@ $(window).ready(function () {
         var articelName = link.data("hash");
         scrollToArticel("#" + articelName);
     });
+    hideSubnav2();
+    $("#vertical-links li .mainLinkMe").click(openSubnav2);
 });

@@ -77,7 +77,7 @@ $(window).ready(function () {
         var nextArticelId;
         var location = window.location.hash;
         if (location == null || location.length == 0) {
-            nextArticelId = $("#content").first().attr('id');
+            nextArticelId = $("#content").children().first().next().attr('id');
         } else {
             nextArticelId = $(location).next().attr('id');
         }

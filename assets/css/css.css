@@ -75,6 +75,24 @@ header#navHeader {
 	z-index: 101;
 }
 
+header#navHeader #shareThis {
+	width: 215px;
+	height: 37px;
+	background-color: #44949a;
+	margin-top: 1px;
+	
+}
+
+header#navHeader #shareThis span.share-banner {
+	display: block;
+	background: url(../../images/social-banner-end.png);
+	position: absolute;
+	left: -10px;
+	top: 0px;
+	width: 10px;
+	height: 37px;
+}
+
 #main-nav {
 	background-color: #F95A2C;
 	width: 100px;

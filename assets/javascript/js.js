@@ -7,6 +7,11 @@
         top: 30,
         left: contentPosition.left
     });
+    $("header#navHeader #shareThis").css({
+        position: 'fixed',
+        top: 30,
+        right: 0
+    });
 };
 
 var scrollToArticel = function(articelId) {

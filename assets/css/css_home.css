@@ -14,6 +14,22 @@ body
 	padding-top: 31px;
 }
 
+#home #new_sign {
+	width: 585px;
+	height: 447px;
+	position: relative;
+	text-indent: -9999px;  /* in order to make text disappear (text is not displayed but still accessable by readers and crawlers) */
+	margin-left: 258px;
+	top: -60px;
+}
+
+#home #new_sign_background {
+	background: url(../../images/homepage/sign.png) no-repeat;
+	position: relative;
+	width: 585px;
+	height: 447px;
+}
+
 #home #moose {
 	background: url(../../images/homepage/moose.png) no-repeat;
 	width: 439px;

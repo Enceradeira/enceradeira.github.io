@@ -59,6 +59,22 @@ var openSubnav2 = function () {
     $(this).siblings(".subnav2").show();
 };
 
+var showNewSign = function() {
+    var sign = $("#home #new_sign_background");
+    var position = sign.offset();
+    var height = sign.height();
+
+    sign.css('top', -height + "px");
+    sign.animate({
+        'top': "35px"
+    }, 1500, "linear", function () {
+        sign.animate({
+            'top': "20px"
+        },250);
+    });
+};
+
+
 $(window).resize(positionNavHeader);
 $(window).ready(positionNavHeader);
 
@@ -92,4 +108,6 @@ $(window).ready(function () {
     });
     hideSubnav2();
     $("#vertical-links li .mainLinkMe").click(openSubnav2);
+
+    showNewSign();
 });

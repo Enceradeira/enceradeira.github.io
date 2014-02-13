@@ -13,3 +13,10 @@ body
 #container {
 	padding-top: 31px;
 }
+
+#home #moose {
+	background: url(../../images/homepage/moose.png) no-repeat;
+	width: 439px;
+	height: 427px;
+	position: relative;
+}

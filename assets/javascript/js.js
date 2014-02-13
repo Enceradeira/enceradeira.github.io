@@ -67,7 +67,7 @@ var showNewSign = function() {
     sign.css('top', -height + "px");
     sign.animate({
         'top': "35px"
-    }, 1500, "linear", function () {
+    }, 1000, "linear", function () {
         sign.animate({
             'top': "20px"
         },250);

@@ -119,6 +119,21 @@ var animateHome = function() {
     moveHomeBackground(homeBackground, 0, moveHomeBackground);
 };
 
+var moveMounatainGuyAnimation = function(guy, frame) {
+    var picWidth = -91;
+    setTimeout(function () {
+        guy.css('background-position', frame * picWidth + "px " + 0 + "px");
+        var nextFrame = frame == 3 ? 0 : frame + 1;
+        moveMounatainGuyAnimation(guy, nextFrame);
+    }, 150);
+}
+
+var animateMountainGuy = function() {
+    var guy = $("#about #mountainGuy");
+    moveMounatainGuyAnimation(guy, 0);
+
+};
+
 $(window).resize(positionNavHeader);
 $(window).ready(positionNavHeader);
 
@@ -157,4 +172,5 @@ $(window).ready(function () {
     animateNewSign();
     animateBlogFrog();
     animateHome();
+    animateMountainGuy();
 });

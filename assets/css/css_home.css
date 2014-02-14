@@ -72,3 +72,57 @@ body
 {
 	background-position: 0 -220px;
 }
+
+#about {
+	text-align: center;
+}
+
+#about #clear1 {
+	height: 45px;
+}
+
+#about #clear2 {
+	height: 10px;
+}
+
+#about .lightHeader {
+	color: #ffffdc;
+	font-size: 20px;
+	opacity: 0.5;
+	font-weight: lighter;
+}
+
+#about h2 {
+	color: #ffffdc;
+	font-size: 40px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+#about p {
+	color: #5e2211;
+	font-size: 15px;
+	margin-bottom: 0px;
+	width: 600px;
+	margin-left: 230px;
+
+}
+
+#about p.smaller {
+	font-size: 13px;
+}
+
+#about p.white {
+	color: #ffffdc;
+}
+
+#about a {
+	color: #5e2211;
+}
+
+#about #mountainGuy {
+	background: url(../../images/homepage/mountain-guy.png) no-repeat;
+	width: 91px;
+	height: 141px;
+	margin: 0 auto;
+}

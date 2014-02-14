@@ -13,6 +13,9 @@ body
 #container {
 	padding-top: 31px;
 	background: url(../../images/homepage/bg-home.png) repeat-x;
+	max-width: 1800px;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
 #home #new_sign {

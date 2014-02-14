@@ -1,6 +1,5 @@
 ﻿var positionNavHeader = function() {
-    var contentPosition = $("section#content").position();
-    // $("header#navHeader").offset({ top: 30, left: contentPosition.left });
+    var contentPosition = $("section#content").offset();
     
     $("header#navHeader").css({
         position: 'fixed',
@@ -104,14 +103,27 @@ var animateBlogFrog = function() {
     setTimeout(function () {
         moveBlogFrogAround(blogfrog, rightPosition, way, moveBlogFrogAround);
     }, 1000);
+};
 
+var moveHomeBackground = function (homeBackground,nextXPosition, continuation) {
+    setTimeout(function () {
+        var currPosition = homeBackground.css('background-position');
+        console.log("bg:" + currPosition);
+        homeBackground.css('background-position', nextXPosition + "px " + 0 + "px");
+        continuation(homeBackground, nextXPosition - 1, continuation);
+    }, 30);
+};
 
+var animateHome = function() {
+    var homeBackground = $("#container");
+    moveHomeBackground(homeBackground, 0, moveHomeBackground);
 };
 
 $(window).resize(positionNavHeader);
 $(window).ready(positionNavHeader);
 
 $(window).ready(function () {
+    
     $("#exploreheader .upArrow").click(function () {
         var location = window.location.hash;
         if (location == null || location.length == 0) 
@@ -144,4 +156,5 @@ $(window).ready(function () {
 
     animateNewSign();
     animateBlogFrog();
+    animateHome();
 });

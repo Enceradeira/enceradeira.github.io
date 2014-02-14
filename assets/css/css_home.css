@@ -12,6 +12,7 @@ body
 
 #container {
 	padding-top: 31px;
+	background: url(../../images/homepage/bg-home.png) repeat-x;
 }
 
 #home #new_sign {

@@ -37,44 +37,44 @@ header#exploreheader
 	background: #5e2111;
 }
 
-	header#exploreheader .exploremore
-	{
-		background: url(../../images/vertical-nav/explore.png);
-		width: 100px;
-		height: 66px;
-		position: relative;
-		margin: 0 auto;
-		border-spacing: 0;
-	}
+header#exploreheader .exploremore
+{
+	background: url(../../images/vertical-nav/explore.png);
+	width: 100px;
+	height: 66px;
+	position: relative;
+	margin: 0 auto;
+	border-spacing: 0;
+}
 
-	header#exploreheader .upArrow
-	{
-		background: url(../../images/vertical-nav/uparrow.png);
-		height: 20px;
-		width: 20px;
-		cursor: pointer;
-		display: inline-block;
-		position: relative;
-		top: 30px;
-		left: 28px;
-	}
+header#exploreheader .upArrow
+{
+	background: url(../../images/vertical-nav/uparrow.png);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 28px;
+}
 
-	header#exploreheader .downArrow
-	{
-		background: url(../../images/vertical-nav/downarrow.png);
-		height: 20px;
-		width: 20px;
-		cursor: pointer;
-		display: inline-block;
-		position: relative;
-		top: 30px;
-		left: 28px;
-	}
+header#exploreheader .downArrow
+{
+	background: url(../../images/vertical-nav/downarrow.png);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 28px;
+}
 
-		header#exploreheader .upArrow:hover, header#exploreheader .downArrow:hover
-		{
-			background-position: 0 -20px;
-		}
+header#exploreheader .upArrow:hover, header#exploreheader .downArrow:hover
+{
+	background-position: 0 -20px;
+}
 
 header#navHeader
 {
@@ -84,25 +84,25 @@ header#navHeader
 	z-index: 101;
 }
 
-	header#navHeader #shareThis
-	{
-		width: 215px;
-		height: 29px;
-		background-color: #44949a;
-		margin-top: 1px;
-		padding: 8px 3px 0 5px;
-	}
+header#navHeader #shareThis
+{
+width: 215px;
+height: 29px;
+background-color: #44949a;
+margin-top: 1px;
+padding: 8px 3px 0 5px;
+}
 
-		header#navHeader #shareThis span.share-banner
-		{
-			display: block;
-			background: url(../../images/social-banner-end.png);
-			position: absolute;
-			left: -10px;
-			top: 0px;
-			width: 10px;
-			height: 37px;
-		}
+header#navHeader #shareThis span.share-banner
+{
+	display: block;
+	background: url(../../images/social-banner-end.png);
+	position: absolute;
+	left: -10px;
+	top: 0px;
+	width: 10px;
+	height: 37px;
+}
 
 #main-nav
 {
@@ -126,10 +126,10 @@ header#navHeader
 	padding: 8px 0;
 }
 
-	#vertical-links a:hover
-	{
-		color: #5e2011;
-	}
+#vertical-links a:hover
+{
+	color: #5e2011;
+}
 
 #vertical-links .subnav2 a:hover
 {
@@ -142,18 +142,18 @@ header#navHeader
 	padding: 5px 0;
 }
 
-	#vertical-links .subnav2 li
-	{
-		border: none;
-		padding: 4px 0;
-	}
+#vertical-links .subnav2 li
+{
+	border: none;
+	padding: 4px 0;
+}
 
-		#vertical-links .subnav2 li a
-		{
-			font-size: 9px;
-			color: #cf7957;
-			padding: 0;
-		}
+#vertical-links .subnav2 li a
+{
+	font-size: 9px;
+	color: #cf7957;
+	padding: 0;
+}
 
 #nav-bottom
 {
@@ -171,62 +171,61 @@ header#navHeader
 }
 
 
-	#horizontal-social .Twitter, #horizontal-social .Facebook, #horizontal-social .LinkedIn,
-	#horizontal-social .vimeo, #horizontal-social .Pinterest, #horizontal-social .googleplus
-	{
-		display: inline-block;
-		width: 20px;
-		height: 20px;
-	}
-
-		#horizontal-social .Twitter:hover, #horizontal-social .Facebook:hover, #horizontal-social .LinkedIn:hover,
-		#horizontal-social .vimeo:hover, #horizontal-social .Pinterest:hover, #horizontal-social .googleplus:hover
-		{
-			background-position: 0 -20px;
-		}
-
-	#horizontal-social a
-	{
-		float: left;
-		margin: 5px 0 0 4px;
-	}
-
-	#horizontal-social .Twitter
-	{
-		background: url('../../images/vertical-nav/gfx-twitter.png') no-repeat;
-	}
-
-	#horizontal-social .Facebook
-	{
-		background: url('../../images/vertical-nav/gfx-facebook.png') no-repeat;
-	}
-
-	#horizontal-social .LinkedIn
-	{
-		background: url('../../images/vertical-nav/gfx-linkedin.png') no-repeat;
-	}
-
-	#horizontal-social .vimeo
-	{
-		background: url('../../images/vertical-nav/gfx-vimeo.png') no-repeat;
-	}
-
-	#horizontal-social .Pinterest
-	{
-		background: url('../../images/vertical-nav/gfx-pinterest.png') no-repeat;
-	}
-
-	#horizontal-social .googleplus
-	{
-		background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
-	}
-
-#container
+#horizontal-social .Twitter, #horizontal-social .Facebook, #horizontal-social .LinkedIn,
+#horizontal-social .vimeo, #horizontal-social .Pinterest, #horizontal-social .googleplus
 {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+
+#horizontal-social .Twitter:hover, #horizontal-social .Facebook:hover, #horizontal-social .LinkedIn:hover,
+#horizontal-social .vimeo:hover, #horizontal-social .Pinterest:hover, #horizontal-social .googleplus:hover
+{
+	background-position: 0 -20px;
+}
+
+#horizontal-social a
+{
+	float: left;
+	margin: 5px 0 0 4px;
+}
+
+#horizontal-social .Twitter
+{
+	background: url('../../images/vertical-nav/gfx-twitter.png') no-repeat;
+}
+
+#horizontal-social .Facebook
+{
+	background: url('../../images/vertical-nav/gfx-facebook.png') no-repeat;
+}
+
+#horizontal-social .LinkedIn
+{
+	background: url('../../images/vertical-nav/gfx-linkedin.png') no-repeat;
+}
+
+#horizontal-social .vimeo
+{
+	background: url('../../images/vertical-nav/gfx-vimeo.png') no-repeat;
+}
+
+#horizontal-social .Pinterest
+{
+	background: url('../../images/vertical-nav/gfx-pinterest.png') no-repeat;
+}
+
+#horizontal-social .googleplus
+{
+	background: url('../../images/vertical-nav/gfx-google.png') no-repeat;
+}
+
+
+#content {
 	width: 1100px;
 	margin: 0 auto;
 }
-
 
 /* classes */
 

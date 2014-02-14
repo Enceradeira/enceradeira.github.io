@@ -35,4 +35,22 @@ body
 	width: 439px;
 	height: 427px;
 	position: relative;
+	left: -24px;
+	top: -15px;
+}
+
+#home #blogfrog {
+	background: url(../../images/homepage/blog-frog.png) no-repeat;
+	width: 376px;
+	height: 220px;
+	top: -210px;
+	left: 695px;
+	position: relative;
+	display: block;
+	text-indent: -9999px;
+}
+
+#home #blogfrog:hover
+{
+	background-position: 0 -220px;
 }

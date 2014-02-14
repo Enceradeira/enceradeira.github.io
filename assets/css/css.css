@@ -239,10 +239,10 @@ header#navHeader
 	margin: 0 auto 15px;
 }
 
-	.m-logo:hover
-	{
-		background-position: 0 -76px;
-	}
+.m-logo:hover
+{
+	background-position: 0 -76px;
+}
 
 .newtwittershare
 {

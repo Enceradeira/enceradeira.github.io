@@ -10,6 +10,11 @@ body
 	height: 935px
 }
 
+#secondary {
+	background: url(../../images/homepage/bg-about.png) no-repeat center 1200px; 
+}
+
+
 #container {
 	padding-top: 31px;
 	background: url(../../images/homepage/bg-home.png) repeat-x;
@@ -78,7 +83,7 @@ body
 }
 
 #about #clear1 {
-	height: 45px;
+	height: 61px;
 }
 
 #about #clear2 {

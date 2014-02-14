@@ -31,6 +31,20 @@ body
 	height: 447px;
 }
 
+#home a#new_case_studies {
+	background: url(../../images/homepage/check-out-case-studies.png) no-repeat;
+	height: 52px;
+	width: 123px;
+	display: block;
+	top: 362px;
+	left: 232px;
+	position: absolute;
+}
+
+#home a#new_case_studies:hover {
+	background-position: 0 -52px;
+}
+
 #home #moose {
 	background: url(../../images/homepage/moose.png) no-repeat;
 	width: 439px;
